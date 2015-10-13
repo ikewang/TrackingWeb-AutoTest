@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1">
+ <parameter name="appname" value="test-0929-1"/>
+ <parameter name="storeappid" value="com.testng.daize"/>
+ <parameter name="downloadurl" value="https://www.baidu.com"/>
+ 
+ <parameter name="newappname" value="test-js-1"/>
+ <parameter name="urlName" value="google play下载地址"/>
+ <parameter name="storeUrl" value="https://www.baidu.com"/>
+ <parameter name="eventName" value="cus1"/>
+ <parameter name="eventId" value="custom_one"/>
+ <parameter name="postbackUrl" value="https://www.baidu.com"/>
+ <parameter name="adnetworkName" value="自定义网络1"/>
+ <parameter name="adnetworkId" value="cus_net"/>
+ <parameter name="campaignName" value="test-01"/>
+ <parameter name="campaignName_offi" value="Avazu-01"/>
+ <parameter name="installPbUrl" value="http://52.5.1.205:3333/network/notify?"/>
+ <parameter name="eventPbUrl" value="http://52.5.1.205:3333/network/notify?"/>
+  
+  <parameter name="filePath" value="C:\\ML\\"/>
+ <parameter name="clickFileName" value="task-test-click.txt"/>
+ <parameter name="sdkFileName" value="task-test-sdk.txt"/>
+ <parameter name="devFileName" value="dev.txt"/>
+ <parameter name="dev_count" value="1"/>
+ <parameter name="task_ids" value="1"/>
+ <parameter name="sent_count" value="10"/>
+ <parameter name="event_id" value="session"/>
+  
+  
+  <test name="AllTest_oneByone">
+    <classes>    
+         <!--        
+         -->
+           <class name="com.testNG_FrameWork.CreateApp"/> 
+           <class name="com.testNG_FrameWork.Statistic"/>  
+           <class name="com.testNG_FrameWork.SendMsg"/>  
+           <class name="com.testNG_FrameWork.AppSet"/>  
+            
+       
+    </classes>
+  </test>
+</suite> 

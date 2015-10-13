@@ -1,0 +1,12 @@
+*.py[cod]
+build
+dist
+Include
+Lib
+Scripts
+.idea
+crow/.idea
+*.egg-info
+test-output/
+selenium/
+testNg/
