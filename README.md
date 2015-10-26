@@ -1,14 +1,18 @@
 # TrackingWeb-AutoTest
-TrackingBird web自动化测试，基于selenium 2.0
+目的：
 
-1.项目简介：
+  本项目用于TestBird公司AppTracking产品的Web自动化测试，基于selenium 2.0 
 
-  java语言
+简介：
+
+  1.使用java语言
   
-  api使用selenium webdriver
+  2.api使用selenium webdriver
   
-  IDE使用eclipse
+  3.IDE使用eclipse
   
-  框架使用testNG
+  4.测试框架使用testNG
   
-  未使用maven
+  5.未使用maven
+
+  6.按功能块划分功能测试类，每一个功能点未一个TestCase，各个功能块无需线性执行
