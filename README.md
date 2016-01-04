@@ -1,9 +1,9 @@
 # TrackingWeb-AutoTest
-目的：
+* 目的：
 
   本项目用于TestBird公司AppTracking产品的Web自动化测试，基于selenium 2.0 
 
-简介：
+* 简介：
 
   1.使用java语言
   
